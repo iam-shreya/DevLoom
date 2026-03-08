@@ -58,7 +58,7 @@ const Login = () => {
         <p className="text-center text-sm mt-4">
           Don't have an account? 
           <span className="text-blue-600 cursor-pointer ml-1">
-            Sign up
+            Register
           </span>
         </p>
       </div>
