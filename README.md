@@ -14,23 +14,116 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# File Tree: DevLoom
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+├── 📁 convex
+│   ├── 📁 _generated
+│   │   ├── 📄 api.d.ts
+│   │   ├── 📄 api.js
+│   │   ├── 📄 dataModel.d.ts
+│   │   ├── 📄 server.d.ts
+│   │   └── 📄 server.js
+│   ├── 📄 auth.config.ts
+│   ├── 📄 projects.ts
+│   └── 📄 schema.ts
+├── 📁 public
+│   ├── 🖼️ file.svg
+│   ├── 🖼️ globe.svg
+│   ├── 🖼️ next.svg
+│   ├── 🖼️ vercel.svg
+│   └── 🖼️ window.svg
+├── 📁 src
+│   ├── 📁 app
+│   │   ├── 📁 login
+│   │   │   └── 📄 page.tsx
+│   │   ├── 📁 singup
+│   │   │   └── 📄 page.tsx
+│   │   ├── 📄 favicon.ico
+│   │   ├── 🎨 globals.css
+│   │   ├── 📄 layout.tsx
+│   │   └── 📄 page.tsx
+│   ├── 📁 components
+│   │   ├── 📁 ui
+│   │   │   ├── 📄 accordion.tsx
+│   │   │   ├── 📄 alert-dialog.tsx
+│   │   │   ├── 📄 alert.tsx
+│   │   │   ├── 📄 aspect-ratio.tsx
+│   │   │   ├── 📄 avatar.tsx
+│   │   │   ├── 📄 badge.tsx
+│   │   │   ├── 📄 breadcrumb.tsx
+│   │   │   ├── 📄 button-group.tsx
+│   │   │   ├── 📄 button.tsx
+│   │   │   ├── 📄 calendar.tsx
+│   │   │   ├── 📄 card.tsx
+│   │   │   ├── 📄 carousel.tsx
+│   │   │   ├── 📄 chart.tsx
+│   │   │   ├── 📄 checkbox.tsx
+│   │   │   ├── 📄 collapsible.tsx
+│   │   │   ├── 📄 combobox.tsx
+│   │   │   ├── 📄 command.tsx
+│   │   │   ├── 📄 context-menu.tsx
+│   │   │   ├── 📄 dialog.tsx
+│   │   │   ├── 📄 direction.tsx
+│   │   │   ├── 📄 drawer.tsx
+│   │   │   ├── 📄 dropdown-menu.tsx
+│   │   │   ├── 📄 empty.tsx
+│   │   │   ├── 📄 field.tsx
+│   │   │   ├── 📄 form.tsx
+│   │   │   ├── 📄 hover-card.tsx
+│   │   │   ├── 📄 input-group.tsx
+│   │   │   ├── 📄 input-otp.tsx
+│   │   │   ├── 📄 input.tsx
+│   │   │   ├── 📄 item.tsx
+│   │   │   ├── 📄 kbd.tsx
+│   │   │   ├── 📄 label.tsx
+│   │   │   ├── 📄 menubar.tsx
+│   │   │   ├── 📄 native-select.tsx
+│   │   │   ├── 📄 navigation-menu.tsx
+│   │   │   ├── 📄 pagination.tsx
+│   │   │   ├── 📄 popover.tsx
+│   │   │   ├── 📄 progress.tsx
+│   │   │   ├── 📄 radio-group.tsx
+│   │   │   ├── 📄 resizable.tsx
+│   │   │   ├── 📄 scroll-area.tsx
+│   │   │   ├── 📄 select.tsx
+│   │   │   ├── 📄 separator.tsx
+│   │   │   ├── 📄 sheet.tsx
+│   │   │   ├── 📄 sidebar.tsx
+│   │   │   ├── 📄 skeleton.tsx
+│   │   │   ├── 📄 slider.tsx
+│   │   │   ├── 📄 sonner.tsx
+│   │   │   ├── 📄 spinner.tsx
+│   │   │   ├── 📄 switch.tsx
+│   │   │   ├── 📄 table.tsx
+│   │   │   ├── 📄 tabs.tsx
+│   │   │   ├── 📄 textarea.tsx
+│   │   │   ├── 📄 toggle-group.tsx
+│   │   │   ├── 📄 toggle.tsx
+│   │   │   └── 📄 tooltip.tsx
+│   │   ├── 📄 convex-client-provider.tsx
+│   │   ├── 📄 providers.tsx
+│   │   └── 📄 theme-provider.tsx
+│   ├── 📁 features
+│   │   └── 📁 auth
+│   │       └── 📁 component
+│   │           ├── 📄 auth-loading-view.tsx
+│   │           └── 📄 unauthenticated-view.tsx
+│   ├── 📁 hooks
+│   │   └── 📄 use-mobile.ts
+│   ├── 📁 lib
+│   │   └── 📄 utils.ts
+│   └── 📄 proxy.ts
+├── ⚙️ .gitignore
+├── 📝 README.md
+├── ⚙️ components.json
+├── 📄 eslint.config.mjs
+├── 📄 next.config.ts
+├── ⚙️ package-lock.json
+├── ⚙️ package.json
+├── 📄 postcss.config.mjs
+├── 📄 sampleData.jsonl
+└── ⚙️ tsconfig.json
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
